@@ -1,0 +1,15 @@
+
+*{
+    margin: 25px;
+    padding: 30px;
+}
+#encabezado3{
+
+    color: #F6F1F1;
+     background-color: gray; 
+}
+
+.centradito{
+   text-align: center; 
+   background-color: #146C94;
+}

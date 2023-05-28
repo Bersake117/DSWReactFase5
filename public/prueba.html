@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset= "UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fase 2</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+    <Style>
+        body {
+            text-align: center;
+        }
+
+        section {
+            text-align: center;
+        }
+
+        nav {
+            background-color: bisque;
+        }
+
+        nav {
+            text-align: justify;
+        }
+
+        header {
+            background-color: aqua;
+        }
+
+        section p {
+            text-align: justify;
+        }
+
+        section h3 {
+            text-align: justify;
+        }
+
+        article {
+            text-align: justify;
+        }
+
+        article h3 {
+            text-align: justify;
+        }
+
+        section h4 {
+            background-color: blanchedalmond;
+        }
+    </Style>
+</head>
+
+<body>
+    <header>
+        <a name="Inicio"></a>
+        <h1>Conociendo Flex Box</h1>
+    </header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Temas 
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Tema 1</a></li>
+                  <li><a class="dropdown-item" href="#">Tema 2</a></li>
+                  <li><a class="dropdown-item" href="#">Tema 3</a></li>
+                  <li><a class="dropdown-item" href="#">Tema 4</a></li>
+                  <li><a class="dropdown-item" href="#">Tema 5</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </nav>
+    <section>
+        <hr>
+        <a name="Conociendo Flexbox"></a>
+        <h2>Conociendo Flexbox</h2>
+        <p>
+            FlexBox es un modo de diseño en CSS que proporciona una forma de organizar y distribuir elementos dentro de
+            un contenedor. Con Flexbox, puedes crear fácilmente diseños complejos y responsivos que se adaptan a
+            diferentes tamaños de pantalla y dispositivos. Fue introducido en CSS3 y es compatible con la mayoría de los
+            navegadores modernos.
+        </p>
+        <img src="Imagenes/Flex box.png" alt="Modelo del diseño Flexbox">
+
+    </section>
+
+    <article>
+
+        <hr>
+        <h3>Caracteristicas</h3>
+        <p>
+        <h3>Algunas características importantes de Flexbox son:</h3>
+
+
+        Un contenedor Flexbox (o flex container) se define estableciendo la propiedad "display" en "flex" o
+        "inline-flex".
+        </p>
+        <p>
+            Los elementos dentro de un contenedor Flexbox se llaman elementos flexibles (o flex items) y se organizan en
+            una
+            línea (eje principal) o en una columna (eje secundario).
+
+        <p>
+            La dirección del eje principal se puede establecer con la propiedad "flex-direction".
+
+        <p>
+            Los elementos flexibles pueden cambiar su tamaño para llenar el espacio disponible con la propiedad
+            "flex-grow"
+            o reducir su tamaño para evitar desbordamiento con la propiedad "flex-shrink".
+
+        <p>
+            La propiedad "flex-basis" establece el tamaño inicial de un elemento flexible antes de que se apliquen las
+            reglas de crecimiento o reducción.
+        <p>
+            La propiedad "align-items" se usa para alinear elementos a lo largo del eje secundario y "justify-content"
+            se
+            usa para distribuir elementos a lo largo del eje principal.
+
+        <p>
+            Flexbox también proporciona propiedades para ordenar elementos ("order"), establecer espacios entre
+            elementos
+            ("flex-gap") y controlar el flujo de elementos que desbordan el contenedor ("flex-wrap").
+
+        <p>
+            En resumen, Flexbox es una herramienta poderosa para crear diseños flexibles y adaptables a diferentes
+            tamaños
+            de pantalla y dispositivos.
+        </p>
+        </p>
+        </p>
+        </p>
+        </p>
+        </p>
+
+        </p>
+    </article>
+
+    <section>
+        <h3>Propiedades</h3>
+        <p>
+            display: Esta propiedad se utiliza para definir el tipo de contenedor que se está creando. El valor "flex"
+            se utiliza para indicar que se trata de un contenedor de Flexbox.
+        <p>
+            flex-direction: Esta propiedad se utiliza para definir la dirección en la que los elementos dentro del
+            contenedor se alinearán. Los valores posibles son "row" (fila), "column" (columna), "row-reverse" (fila
+            inversa) y "column-reverse" (columna inversa).
+        <p>
+            justify-content: Esta propiedad se utiliza para definir la forma en que se distribuyen los elementos a lo
+            largo del eje principal (la dirección definida por flex-direction). Los valores posibles son "flex-start"
+            (comienzo), "flex-end" (fin), "center" (centro), "space-between" (espacio entre elementos), "space-around"
+            (espacio alrededor de los elementos) y "space-evenly" (espacio uniforme).
+        <p>
+            align-items: Esta propiedad se utiliza para definir la forma en que se alinean los elementos a lo largo del
+            eje transversal (la dirección opuesta a la definida por flex-direction). Los valores posibles son
+            "flex-start" (comienzo), "flex-end" (fin), "center" (centro), "stretch" (estirar) y "baseline" (línea base).
+        <p>
+            align-content: Esta propiedad se utiliza para definir la forma en que se distribuyen las líneas de elementos
+            si hay más de una fila o columna dentro del contenedor. Los valores posibles son los mismos que
+            justify-content.
+        <p>
+            flex-wrap: Esta propiedad se utiliza para definir si los elementos dentro del contenedor deben envolverse o
+            no cuando no hay suficiente espacio en el contenedor. Los valores posibles son "nowrap" (sin envolver),
+            "wrap" (envolver) y "wrap-reverse" (envolver en reversa).
+        <p>
+            flex-grow: Esta propiedad se utiliza para definir la forma en que los elementos dentro del contenedor crecen
+            en tamaño para ocupar el espacio disponible. Un valor mayor significa que el elemento crecerá más.
+        <p>
+            flex-shrink: Esta propiedad se utiliza para definir la forma en que los elementos dentro del contenedor se
+            reducen en tamaño si no hay suficiente espacio disponible. Un valor mayor significa que el elemento se
+            reducirá más.
+        <p>
+
+            flex-basis: Esta propiedad se utiliza para definir el tamaño inicial de un elemento antes de que se apliquen
+            flex-grow o flex-shrink.
+
+
+        </p>
+        </p>
+        </p>
+        </p>
+        </p>
+        </p>
+        </p>
+        </p>
+        </p>
+    </section>
+
+    <section>
+        <hr>
+        <a name="Mockup de la pagina"></a>
+        <h4>Mockup de la pagina</h4>
+        <img src="Imagenes/Mockup.drawio.png" alt="">
+    </section>
+    <section>
+        <hr>
+        <a name="Acerca de"></a>
+        <h4>Acerca de</h4>
+        <h3>Nombre: Arquimedes Mora</h3>
+        <h3>Programa: Ingenieria de Sistemas</h3>
+        <h3>Fecha de creación: 19 de febrero de 2023</h3>
+        <hr>
+        <p> Mis datos de contactos son: <br>
+            Telefono: 3202672305 <br>
+            Email: amoramo@unadvirtual.edu.co <br>
+        </p>
+    </section>
+
+    <footer>
+        <hr>
+        <p>Esta pagina fue desarrollada por el Estudiante Arquimedes Mora</p>
+        <p>Fecha de actualizacion 14/03/2023</p>
+    </footer>
+</body>
+
+</html>
