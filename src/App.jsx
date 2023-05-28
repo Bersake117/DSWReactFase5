@@ -24,10 +24,10 @@ function App() {
 
         <h6>Enlace al proyecto</h6>
         <a href='index.html'> Click aqui para ir al proyecto</a> 
-        
+
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Estudiante de Ingenieria de sistema - Grupo 301122_28
       </p>
     </>
   )
